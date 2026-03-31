@@ -3,11 +3,11 @@ const hour = now.getHours();
 
 let greeting = "";
 if(hour < 12){
-    greeting = "Good Morning ";
+    greeting = "Good Morning, ";
 } else if(hour < 18){
-    greeting = "Good Afternoon ";
+    greeting = "Good Afternoon, ";
 } else {
-    greeting = "Good Evening ";
+    greeting = "Good Evening, ";
 }
 
 document.getElementById('greeting').textContent = greeting;
